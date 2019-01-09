@@ -1,0 +1,137 @@
+/* Header -------- */
+header{
+    color:#9f9f9f;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-top: 0px;
+    margin-bottom: -5px;
+    background-color:  #32ffff;
+}
+header h1{
+    font-size:46px;
+}
+header p{
+    font-size: 70px;
+}
+
+/* Nav ------------ */
+nav{
+    text-align: center;
+    margin-bottom: -5px;
+    background-image: linear-gradient(0deg,#32ffff 0%,#89ff89 100%)
+}
+nav a{
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover{
+    text-decoration: none;
+    text-align: center;
+}
+nav ul{
+    width: 1000px;
+    display: flex; /*子要素が横に並ぶ*/
+    justify-content: space-between;
+        margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60;
+    list-style: none;
+
+    padding: 120;
+}
+nav li{
+    text-align: center;
+    font-size: 60px;
+}
+nav li a{
+    text-align: center;
+    transition: all 1s ease 1s;
+}
+/* Main image -------*/
+#main{
+    text-align: center;
+    width: 100%;
+    height:600px;
+    margin-bottom: 0px;
+    background-size: cover;
+}
+#main img{
+    opacity: 0; /* 透明 */
+    /* アニメーションの名前,時間,イージング,待機時間,回数,方向,終わりの位置 */
+    animation: fadein 1s ease 1s 1 normal forwards;
+}
+
+/* アニメーションのタイムライン */
+@keyframes fadein{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
+/* Recomended Items -------*/
+#recomended{
+    text-align: center;
+    margin-bottom: 64px;
+    background: url(../img/%E7%AC%91%E9%A1%94.jpg) 10px 10px;
+}
+#recomended h2{
+    color: #000000;
+    font-size:80px;
+    font-family: 'Lato', sans-serif;
+}
+
+#recomended h3{
+    color: #000000;
+    font-size:60px;
+    font-family: 'Lato', sans-serif;
+}
+}
+/* Whats New ---------*/
+#about{
+    margin-bottom: 64px;
+    color: #32ffff;
+}
+#about h2{
+    text-align: center;
+    color: #000000;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 24px;
+}
+#about p{
+    margin-bottom: 24px;
+}
+#about dd{
+    margin-bottom: 18px;
+}
+div{
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+    background: url(../img/%E7%AC%91%E9%A1%94.jpg) 5px 5px;
+    
+}
+
+
+/* Footer --------*/
+footer{
+    text-align: center;
+}
+
+
+a{
+    color:#AAAAAA;
+}
+a:hover{
+    color:#99CCFF;
+}
+
+
+
